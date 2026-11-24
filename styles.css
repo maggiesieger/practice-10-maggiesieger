@@ -243,3 +243,35 @@ nav {
   color: #FFFFFF;
   margin-bottom: 8px;
 }
+.split {
+  display: flex;
+  border-radius: 24px;
+  overflow: hidden;
+  margin-bottom: 16px;
+}
+.half-tan, .half-rust {
+  width: 50%;
+  box-sizing: border-box;
+  padding: 64px 48px;
+}
+.half-tan {
+  background-color: #E2C08D;
+}
+.half-rust {
+  background-color: #DA4921;
+  color: #FFFFFF;
+}
+.split h2 {
+  font-size: 48px;
+  text-transform: uppercase;
+}
+.split-label {
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 8px;
+}
+.half-rust .button {
+  background-color: #243A30;
+}
